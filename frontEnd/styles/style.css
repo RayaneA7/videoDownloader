@@ -1,0 +1,136 @@
+body {
+	background-color: #141414;
+	padding-top: 0;
+	font-family: "PT Sans", sans-serif;
+	margin: 0 auto;
+}
+
+.bodyflex {
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: column;
+	justify-content: space-between;
+	/* align-items: center; */
+}
+
+header {
+	background-color: #0d0d0d;
+	text-align: center;
+	color: #eee;
+	margin: auto 30%;
+	/* margin-bottom: 9%; */
+	border-radius: 4px;
+}
+
+h1 {
+	text-transform: capitalize;
+}
+
+.preForm {
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+}
+
+div.form {
+	padding: 50px 50px;
+	background-color: #0d0d0d;
+	border: solid 1px #222;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	flex: 0 0 200px;
+	/* background-color: #eee; */
+	color: #eee;
+	padding: 1%;
+}
+/* input,
+url {
+	color: #eee;
+} */
+#URL {
+	flex-grow: 1;
+	flex-shrink: 1;
+	width: 450px;
+	margin: 10px 0;
+	border: solid 0px #eee;
+	height: 60px;
+	background-color: #f52525;
+	/* color: #eee; */
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+form > label {
+	/* font-size: 20px; */
+}
+
+#URL,
+::placeholder {
+	color: #eee;
+	opacity: 45%;
+	text-align: center;
+	font-size: 18px;
+}
+#URL:hover {
+	border-radius: 3px;
+}
+
+#URL,
+::placeholder:active {
+	background-color: #f52525;
+	color: #f52525;
+	/* dont work */
+}
+
+.submit {
+	/* color: #f52525; */
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #eee;
+	cursor: pointer;
+	width: 95px;
+	height: 40px;
+	border-width: 0px;
+	border-radius: 4px;
+	margin-top: 20px;
+	/* background-image: url("../assets/img/arrowPng.png") no-repeat; */
+	border-color: #d81c3a;
+}
+
+.submit:hover {
+	border-radius: 4.5px;
+	box-shadow: 0.5px 0.5px 0.5px #f52525;
+}
+
+label.labelHeader {
+	font-weight: bold;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+label.labelParagraph {
+	font-size: smaller;
+	margin: 5px auto;
+}
+
+footer {
+	color: #eee;
+	text-align: center;
+	/* text-transform: capitalize; */
+	background-color: #0d0d0d;
+	margin: auto 30%;
+	/* margin-top: 9%; */
+	border-radius: 4px;
+	padding: 5px;
+	font-size: 18px;
+}
+
+span.capital {
+	text-transform: capitalize;
+}

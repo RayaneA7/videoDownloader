@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	ml lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<title>youtubeVideoDownloader</title>
+	</head>
+	<body>
+		<header>
+			<h1>youtube DL</h1>
+		</header>
+		<form  action="/download" method="GET">
+			<!-- <div>
+			<input type="radio" name="qualityLabel" value="720p" id="720"/>
+            <label for="720">720p</label>
+            </div>
+            <div>
+            <input type="radio" name="qualityLabel" value="360p" id="360"/>
+            <label for="360">360p</label>
+            </div> -->
+			<label for="qual">choose the quality</label>
+			<select name="qualityLabel" id="qual">
+				<option value="720p">720p</option>
+				<option value="360p">360p</option>
+			</select>
+			<br />
+			<input type="submit" value="download" />
+		</form>
+	</body>
+</html>
+<footer>
+	all copyrights are reserved &copy;
+</footer>
